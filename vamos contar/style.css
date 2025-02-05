@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: rgb(52, 103, 170);
+font: normal 12pt arial;
+
+}
+
+header{
+color: white;
+text-align: center;
+}
+
+section{
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356);   
+ 
+ 
+
+
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.conteiner{
+display: flex;
+flex-direction: column;
+
+
+
+
+}
+ input {
+margin: 5px;
+width: 70px;
+}
+
+@keyframes bumbum {
+
+0%{
+transform: scale(1) rotate(0deg);
+
+}    
+50%{
+    transform: scale(1.5) rotate(-180deg);
+}
+100%{
+    transform: scale(3) rotate(-360deg);
+}
+
+
+}
+
+#button {
+
+background-color: rgb(52, 103, 170);
+border: none;
+border-radius: 5px;
+color: aliceblue;
+transition: width 0.5s ease-in;
+
+
+
+}
+#button:hover{
+
+    background-color:rgb(122, 122, 122) ;
+
+ animation: bumbum 1.5s ease infinite;
+  
+
+}
+#button:active{
+    background-color:white ;
+}

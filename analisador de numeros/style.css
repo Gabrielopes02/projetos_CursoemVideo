@@ -1,0 +1,126 @@
+body{
+background-color: rgb(197, 196, 196);
+font: normal 12pt arial;
+transition: 1s;
+
+}
+header{
+color: white;
+text-align: center;
+}
+
+section{
+background-color: rgb(169, 202, 150);
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 3px 3px 10px rgba(207, 37, 37, 0.356);
+/* transition: 3s; */
+
+}
+footer{
+    color: rgb(195, 199, 170);
+    text-align: center;
+    font-style: italic;
+
+}
+select{
+width: 170px;
+margin-top: 10px;
+}
+
+#escondida{
+background-color: black;
+}
+
+#noturno{
+text-align: right;
+
+}
+
+#botao{
+background-color: #d6d5d5;
+width: 35px;
+height: 17px;
+border-radius: 10px;
+border: none;
+text-align: left;
+margin: none;
+padding: none;
+cursor: pointer;
+}
+
+
+#bolinha{
+background-color: #ffffff;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+text-align: center;
+position: relative;
+right: 4px;
+border: 1px solid black;
+transition: 1s;
+}
+
+
+#lista{
+background-color: rgb(204, 224, 191);
+border: 2px solid black;
+border-radius: 5px;
+text-align: center;
+overflow: hidden;
+padding: 10px;
+width: 100%;
+}
+.botao{
+border: none;
+border-radius: 10px;
+height: 15%;
+width: 100%;
+background-color: #d6d5d5;
+margin-top: 10px;
+
+}
+#cu{
+width: 80%;
+display: flex;
+transition: 1s;
+
+
+}
+#conteudo{
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 10px;
+padding: 10px;
+font-size: 2vw;
+
+}
+.lista{
+width: 70%;
+}
+#numero{
+margin-top: 5px;
+width: 100%;
+height: 10%;
+
+}
+#voltar{
+width: 30px;
+height: 25px;
+margin: 15px;
+}
+#voltar a{
+position: relative;
+right: 3px;
+bottom: 3px;
+}
+option{
+width: 100%;
+font-size: 2vw ;
+}
